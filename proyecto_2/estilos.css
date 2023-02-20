@@ -1,0 +1,101 @@
+body {
+	margin: 20px;
+}
+
+#destacados {
+	background-color: #669999;
+}
+
+#ofertas {
+	background-color: #F7D988;
+}
+
+#disponible {
+	background-color: #F7A188;
+}
+
+#contenido > section > h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+/**** 1.- Crea una diagramación de tres filas con display flex ****/
+.contenedor{
+	display:flex;
+	flex-direction: row;
+}
+/**** 1.- Crea una diagramación de tres filas con display flex ****/
+
+/**** 2.- Agrega a la clase column diagramación en columnas ****/
+#contenido{
+	display:flex;
+	flex-direction: column;
+} 
+/**** 2.- Agrega a la clase column diagramación en columnas ****/
+
+/**** 3.- En la primera fila de "productos destacados" crea una diagramación de 2 columnas y cada producto tendrá
+la mitad del espacion 50% ****/
+#destacados .contenedor > div{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 50%;
+	/**** Proyecto 2 ****/
+/**** 5.- Agrega un estilo avanzado de sombra a los productos destacados con box-shadow: 0 4px 8px 0rgba
+(0,0,0,0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3); ****/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+}
+/**** 3.- En la primera fila de "productos destacados" crea una diagramación de 2 columnas y cada producto tendrá
+la mitad del espacion 50% ****/
+
+/**** 4.- En la primera fila de "productos destacados" crea una diagramación de 3 columnas y cada producto tendrá
+un tercio del espacio 33.3# ****/
+#ofertas .contenedor > div{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color:white;
+	width: 33.3%;
+/**** Proyecto 2 ****/
+/**** 2.- Agrega un estilo de sombra de caja simple a los productos con ofertas con box-shadow: 4px 8px; ****/
+	box-shadow: 4px 8px;
+}
+/**** 4.- En la primera fila de "productos destacados" crea una diagramación de 3 columnas y cada producto tendrá
+un tercio del espacio 33.3# ****/
+
+/**** 5.- En la primera fila de "productos destacados" crea una diagramación de 4 columnas y cada producto tendrá
+un cuarto del espacio 25% ****/
+#disponible .contenedor > div{
+	text-align: center;
+	padding: 10px;
+	border: solid 5px coral;
+	background-color: white;
+	width: 25%;
+/**** Proyecto 2 ****/
+/**** 2.- Agrega un estilo de sombra de caja con color específico a los productos disponibles con
+box-shadow: 4px 8px #D46A6A; ****/
+	box-shadow: 4px 8px #D46A6A;	
+}
+/**** 5.- En la primera fila de "productos destacados" crea una diagramación de 4 columnas y cada producto tendrá
+un cuarto del espacio 25% ****/
+
+/**** PROYECTO 2 ****/
+/**** 1.- Agrega un selector para el título de destacados y colócale sombra a ese título con 
+text-shadow: 0 0 3px white; ****/
+#titulo_destacados {
+	text-shadow: 0 0 3px white;
+}
+/**** 1.- Agrega un selector para el título de destacados y colócale sombra a ese título con 
+text-shadow: 0 0 3px white; ****/
+
+/**** 4.- Agrega doble sombra al titulo de las ofertas con text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A; ****/
+#titulo_ofertas {
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
