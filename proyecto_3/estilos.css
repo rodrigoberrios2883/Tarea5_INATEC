@@ -1,0 +1,69 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+
+
+header h1{
+	padding-left: 10px;
+}
+
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-principal ul li {
+	padding: 10px;
+	list-style-type: none;
+}
+
+#contenido {
+	margin-left: 200px;
+	padding: 10px;
+	color: black;
+	/**** 4. Agrega un background de imagen al contenido que enlace a la imagen imagenes/imagen3.jpg ****/
+	background-image: url("imagen3.jpg");
+	/**** 5. Agrega un borde redondeado de 6px ****/
+	border-radius: 6px;
+}	
+
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#contenido p img {
+	float: right;
+	/**** 6. Agrega a la imagen pequeña del contenido un borde sólido de 2px con color #605B56, un margen de 
+	3px para separarlo del contenido y un borde redondeado de 4px ****/
+	border: solid 2px #605B56;
+	margin: 3px;
+	border-radius: 4px;
+}
+
+/**** 1. Agrega estilos al header para hacerlo más grande ****/
+header {
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	/**** 2. Coloca el fondo gradiente (recuerda usar las diferentes instrucciones para cada navegador, 
+el fondo gradiente debe ser de izquierda con color #5CA861 a derecha de color #BADFBC ****/
+	background: -webkit-linear-gradient(left, #5CA861, #BADFBC);
+	background: -o-linear-gradient(right, #5CA861, #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861, #BADFBC);
+	background: linear-gradient(to right, #5CA861, #BADFBC);
+	/**** 3. Agrega un borde redondeado de 10px al header ****/
+	border-radius: 10px;
+}
+/**** 1. Agrega estilos al header para hacerlo más grande ****/
+
+
+
+
